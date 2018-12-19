@@ -125,7 +125,9 @@ main {
 header,
 footer,
 main {
-  /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center*/
+  display: flex;  /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center*/
+  align-items: center;
+  justify-content: center;
 }
 
 .wrapper {
@@ -153,6 +155,10 @@ main {
 }
 
 .flex-container {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  flex-flow: row wrap;
   /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center, and set flex-flow to row wrap*/
 }
 
@@ -164,6 +170,9 @@ main {
   background-color: #f16059;
   width: 30%;
   height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* ==========================================================================
